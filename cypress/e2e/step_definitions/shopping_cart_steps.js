@@ -14,7 +14,8 @@ function findItemOnCart(number){
 
 Given('user visit homepage', () => {
   cy.visit('/')
-  cy.get('main.sc-ebmerl-4').scrollTo('top', {ensureScrollable: false})
+  //cy.get('main.sc-ebmerl-4').scrollTo(0, 100)
+  //cy.get('main.sc-ebmerl-4').scrollTo('top', {ensureScrollable: false})
 })
 
 Given('user click Add to cart button on product {int}', function(number){
